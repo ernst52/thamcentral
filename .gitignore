@@ -1,0 +1,29 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# Build / output
+dist/
+build/
+out/
+
+# Logs
+logs/
+*.log
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Coverage / testing
+coverage/
+
+# PostgreSQL
+
+# Data folders
+content/
+uploads/
