@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>thailand-caves.kmz</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Thailand caves April 2026</name>
+		<Placemark>
+			<name>CM0052  Tham Borichinda [/]</name>
+			<description><![CDATA[<B>LOCALITY: </B>TH  Doi Inthanon National Park        [Chiang Mai] <BR><B>OLD_NRS: </B>CM0089    <BR><B>SYNONYM: </B>Tham Chom Thong <BR><B>X_COORD: </B>X=466.2930    <B>Y_COORD: </B>Y=2045.3450    <B>Z_COORD: </B>Z=450.0000m <BR><B>COORD_SYS: </B>UTM47/WGS84 <BR><B>DEPTH: </B>50.0m      <B>LENGTH: </B>250.0m <BR><B>PERSPECT: </B>LIMITED <BR><B>HISTORY: </B>1933 F. Sarasin 2004-10-13 Rattanarithikul et al. - biological collecting  2005-09-29 Harbach et al. - biological collecting 2007-10-07 P. Pimvichai, S. Panha and H. Enghoff - biological collecting 2009-10-13 N. Likhitrakarn, H. Enghoff, C. Sutcharit   S. Panha - biological collecting 2014-10-15 Y. Li, Z. Chen - biological collecting 2020 or 2021 M. Keller <BR><B>POSITION: </B>The cave is just inside the Doi Inthanon National Park, about 70 km south-west of Chiang Mai. Less than 1 km after the entrance gate a 4WD track on the right is driveable in the dry season for the first couple of kilometres up to a rocky stream. From here it is about half an hour walk through degraded forest to the cave entrance on the other side of the hill. The cave itself remains hidden behind a corner of the cliff until you are nearly on top of it. <BR><B>DESCRIPTION: </B>A steep slope leads down to the imposing entrance chamber, a vast hall decorated with gigantic flowstone and stalagmites. The numerous cave windows, multi-layered floor and enormous re-eroded speleothems indicate that this is a very old cave. At the back of the entrance chamber a massive section of roof has collapsed, beyond which there is another smaller chamber and a very high vertical rift. The natural unevenness of the floor has been further accentuated by treasure seekers looking for hidden gold believed to have been left by the Japanese during the Second World War. The gold remains elusive, but weapons dating from that period have been found. In 1931 Sarasin reported that the cave was a locally venerated shrine, but there is no trace of this today. The cave is occasionally used by monks.  The type series of Borichinda cavernicola (174 specimens) was collected on 13 October 2004 by Rattanarithikul et al. Paratypes were collected on 29 September 2005 by Harbach et al. They were col <BR>]]></description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<coordinates>98.68068927,18.49828422,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CM0053  Tham Muang On [X]</name>
+			<description><![CDATA[<B>LOCALITY: </B>TH  Ban Sa Ha Khon        [Chiang Mai] <BR><B>SYNONYM: </B>Tham Chom Muang, Tham Myyd, Tham Meud <BR><B>X_COORD: </B>X=525.0930    <B>Y_COORD: </B>Y=2077.1520    <B>Z_COORD: </B>Z=518.0000m <BR><B>COORD_SYS: </B>UTM47/WGS84 <BR><B>DEPTH: </B>59.0m      <B>LENGTH: </B>530.0m <BR><B>PERSPECT: </B>LIMITED <BR><B>HISTORY: </B>Khruba Siwichai visited the cave 1930s Ajarn Lee, the famous meditation monk, visited the cave 1978 Opened to the public 1982-01 J. Dunkley 1985-07-20 P.  Leclerc, J.-P. Besson, Lucien Deharveng 2008-08-29 M. Ellis, T. Bolger 2009-09-19 M. Ellis, T. Bolger - surveyed cave 2017-02 J. Dunkley 2020-05-21 S. Subrahmanya, J. Srisuwan. J. Morris, M. Wild - surveyed cave 2020-06-03 S. Subrahmanya, J. Morris, M. Wild - explore and connect second entrance to main cave. 2021-08 K. Promneewat, T. Taksavasu - mapping and sensor installation 2022-04-19 N. Boonkanpai, A. Saartsud, C. Homyosapol, et al. Earth Whisper Company   DMR - opening of Thailand's first "Smart Cave" 2024-07-17 M. Ellis, Y. Sopha 2025-08-30 M. Ellis, Y. Sopha, K. Carter, H. Carter +2 2025-12-30 M. Keller, J. Morris, M. Wild - find second vertical entrance to cave. <BR><B>POSITION: </B>The cave is a well known tourist attrcation and is signposted from the Chiang Mai ring road. Take the road to San Kamphaeng then continue along the H1317 to the 28 km marker. The turning is signed and a surfaced road winds up the side of the hill to a car park and food stalls. Take the stairs from the car park to get to the gated entrance. The upper entrance can be reached by climbing uphill directly behind the gated entrance for about 20 m. The third entrance is about 10 m from the path, on the left (uphill), which goes from the main entrance to the top of the hill. <BR><B>DESCRIPTION: </B>The small entrance opens onto concrete steps that descend for 8 m to the floor of the upper passage which is 8 m high and 50 m long. At the end of the upper passage there is a shrine and a flight of concrete stairs that descend about 30 m to the main passage. The passage is dominated by a large stalagmite that is revered as it is said to contain a hair from the Buddha. Beyond the stalagmite the main passage is level, 200 m long and typically 10 m wide and high. The passage ends at a choke with some intermittently active rimstone pools.At the base of the stairs there is a large reclining Buddha, behind which the passage ascends and closes down at a point close to Tham Wiang Fah. From the upper entrance a 10 m rope is belayed from a tree to get safe access to the draughting entrance pitch. The 35 m pitch is rigged with one double anchor rebelay at -4.5 m. A fine 30 m abseil descends past a large flowstone wall before dropping onto a large balcony. Care should be taken while moving here a <BR>]]></description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<coordinates>99.23811009000001,18.78587448,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CM0062  Tham Wiang Fah [X]</name>
+			<description><![CDATA[<B>LOCALITY: </B>TH  Ban Sa Ha Khon        [Chiang Mai] <BR><B>SYNONYM: </B>Anxiety State Crisis Cave, Tham Vieng, Dark Cave <BR><B>X_COORD: </B>X=524.9260    <B>Y_COORD: </B>Y=2076.8230    <B>Z_COORD: </B>Z=501.0000m <BR><B>COORD_SYS: </B>UTM47/WGS84 <BR><B>DEPTH: </B>99.0m      <B>LENGTH: </B>1414.0m <BR><B>PERSPECT: </B>NONE <BR><B>HISTORY: </B>1978 G. Pope et al. - palaeontology 2009-10-15 a 30 year old American male climber, Jeremy Joe Riveira, died in the cave after falling while climbing solo and alone. 2009-12-15 M. Ellis, J. Jaskowiak, D. Joseph - surveyed part of the cave 2020-05-23 S. Subrahmanya, J. Srisuwan, J. Morris, M. Wild - surveyed cave 2020-06-09 S. Subrahmanya, J. Morris, M. Wild, B. Reymanents, T. Warinchaikamon - training course and surveyed cave 2023 used as location for adventure programme for UK Channel 5. 2025-12-27 M. Petric, J. DeMaranville, N. Pedersen - daylight shaft, at least 3 rockfall near misses, 2 caused by climbers <BR><B>POSITION: </B>Follow the signs for Tham Muang On, which is signposted from the Chiang Mai ring road. Take the road to San Kamphaeng then continue along the H1317 to halfway between the 27 and 28 km markers.  A wood sign with Thai writing marks the turning west onto a 500 m long dirt track that leads to the Crazy Horse Buttress parking. The lower entrance can be reached by taking the obvious trail heading up the hill from the parking lot. Climb up the steps for about 100 m before reaching a big tree with a sign that says Anxiety State Crisis. To get to the upper entrance, take the trail heading up at the Y junction and follow the trail for 50 m before reaching the entrance. <BR><B>DESCRIPTION: </B>The lower entrance has been modified with bamboo by bat trappers. The 22 m wide by 21 m high entrance chamber is a large boulder breakdown. The Mammoth, a canopied stalagmite, can be found at the bottom of the entrance chamber. Continuing up a series of dug out steps leads to the large skylight chamber.  The upper entrance passage continues on for 15 m before reaching a 6 m wall that can be climbed using the metal rungs installed and a safety line. The ledge at the top of the climb overlooks the skylight chamber. After a short 6 m traverse along the left wall, a 9 m pitch is reached. This can be downclimbed using the metal rungs installed, but abseiling down is advised. From here a 5 m climb using metal rungs and a safety line gets you to the lip of the 26 m entrance shaft. The way on (remaining on-rope) is a traverse along the right wall of the shaft following the anchors. This becomes gradually more exposed before ending with a Y-hang. The pitch is rigged with a single anchor rebel <BR>]]></description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<coordinates>99.23652127,18.78290306,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CM0291  Tham Huai Hok [/]</name>
+			<description><![CDATA[<B>LOCALITY: </B>TH  Pong Tung        [Chiang Mai] <BR><B>X_COORD: </B>X=482.8630    <B>Y_COORD: </B>Y=1976.4290    <B>Z_COORD: </B>Z=580.0000m <BR><B>COORD_SYS: </B>UTM47/WGS84 <BR><B>DEPTH: </B>0.0m      <B>LENGTH: </B>100.0m <BR><B>PERSPECT: </B>GOOD <BR><B>HISTORY: </B>2014-07-19 T. Wyderka - cave found, but not fully explored. 2020-01-14 T. Tournier, S. Lerd, A. Kamsak <BR><B>POSITION: </B>The cave is signposted and is located in moo 8 , Ban Mae Buon Nua. Drive through the village and follow a dirt track to the east. From the large cave information board it is a 200 m walk up the hill to the north to reach the cave entrance. <BR><B>DESCRIPTION: </B>The cave is well decorated for the first 50 m to a junction. From the junction the cave continues for at least another 50 m and is getting bigger. However, the way on was down a 45 deg slope. The cave is reported to have a pool of water. <BR>]]></description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<coordinates>98.83823362,17.87559166,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CM0307  Tham Khang Khao [O]</name>
+			<description><![CDATA[<B>LOCALITY: </B>TH  Op Khan National Park        [Chiang Mai] <BR><B>SYNONYM: </B>Bat Cave <BR><B>X_COORD: </B>X=483.1700    <B>Y_COORD: </B>Y=2075.1800    <B>Z_COORD: </B>Z=725.0000m <BR><B>COORD_SYS: </B>UTM47/WGS84 <BR><B>DEPTH: </B>0.0m      <B>LENGTH: </B>250.0m <BR><B>PERSPECT: </B>GOOD <BR><B>HISTORY: </B>2018 A. Granstrand 2020 T. Tournier, S. Lerd 2023 M. Keller <BR><B>POSITION: </B>A cave situated in a cliff area in the jungle in Op Khan National Park. The cave is unmarked, but easy to access, using first local farmer roads, and after that a hunter's trail to the cave. <BR><B>DESCRIPTION: </B>The entrance is a huge opening, and you have to climb down very steep, a rope can be useful. The cave contains two big chambers. There is an option to climb up in some narrow passages to a top exit. This is a bat cave, with really huge species of bats. Farmers regularly harvest the bats. <BR>]]></description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<coordinates>98.84031488999999,18.7681353,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AC0004  Tham Saeng Phet 1 [X]</name>
+			<description><![CDATA[<B>LOCALITY: </B>TH  Nong Ma Saeo        [Amnat Charoen] <BR><B>SYNONYM: </B>Tham Saeng Phet Bon <BR><B>X_COORD: </B>X=471.5000    <B>Y_COORD: </B>Y=1757.1250    <B>Z_COORD: </B>Z=235.0000m <BR><B>COORD_SYS: </B>UTM48/WGS84 <BR><B>DEPTH: </B>3.0m      <B>LENGTH: </B>17.0m <BR><B>PERSPECT: </B>NONE <BR><B>HISTORY: </B>Ajarn Chah stayed at this cave. 2015 L. Valeans, A. Namdang - survryed cave <BR><B>POSITION: </B>From Amnat Charoen take the H202 east for 12 km and then turn north on the H3010 for 3 km to a small road which leads up the hill to the large temple of Wat Tham Saeng Phet Bon. The hill is to the west of the Huai Si Tho reservoir. The cave is a 500 m walk from the buildings. <BR><B>DESCRIPTION: </B>The sandstone cave, where the famous meditation monk Ajarn Chah once lived, is to the north of the temple buildings and now houses a Buddha statue. <BR><B>GEO_HYDRO: </B>Cretaceous Phu Phan Formation <BR>]]></description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<coordinates>104.73376584,15.89306488,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TA0083  Tham Mutalu [/]</name>
+			<description><![CDATA[<B>LOCALITY: </B>TH  Umphang Wildlife Sanctuary        [Tak] <BR><B>SYNONYM: </B>Tham Morlu; Tham X <BR><B>X_COORD: </B>X=478.5710    <B>Y_COORD: </B>Y=1767.5490    <B>Z_COORD: </B>Z=510.0000m <BR><B>COORD_SYS: </B>UTM47/WGS84 <BR><B>DEPTH: </B>19.0m      <B>LENGTH: </B>726.0m <BR><B>PERSPECT: </B>LIMITED <BR><B>AIRFLOW: </B>High CO2 <BR><B>HISTORY: </B>First visited by Venetian cavers in 1993. 2001-01-06 SMCC M. Ellis, D. Barrett 2001-01-07 SMCC M. Ellis, D. Barrett 2002-02-14 SMCC M. Ellis, S. King, M. Reid, E. Waters 2002-02-26 SMCC M. Ellis, C. Dummer, P. Dummer <BR><B>POSITION: </B>About 500 m along a path into the forest from the Tee Lor Su waterfall track. Frequently visited by groups rafting the river. <BR><B>DESCRIPTION: </B>The cave consists of a single main passage with a couple of small side passages leading to undescended pitches.  It is a large bat roost and the air is bad (1% carbon dioxide throughout most of the cave and over 5% in a hole in the main passage). <BR>]]></description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<coordinates>98.79972612,15.98737333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CH0077  Tham Sing Toh [/]</name>
+			<description><![CDATA[<B>LOCALITY: </B>TH  Pha Phueng Wildlife Sanctuary        [Chaiyaphum] <BR><B>X_COORD: </B>X=803.2110    <B>Y_COORD: </B>Y=1831.6240    <B>Z_COORD: </B>Z=595.0000m <BR><B>COORD_SYS: </B>UTM47/WGS84 <BR><B>DEPTH: </B>64.0m      <B>LENGTH: </B>651.0m <BR><B>PERSPECT: </B>GOOD <BR><B>HISTORY: </B>2005-01-25 P. Dummer, C. Dummer, I. Hollis, P. Collett, G. Francis 2006-01-06 M. Ellis, P. Collett, C. Dummer, P. Dummer, I. Hollis, D. Owen, L. Hollis, D. Briggs 2009-12-01 M. Ellis, S. Smith 2014-02-10 M. Ellis, P. Collett, P. Dummer, C. Dummer, S. Howe, K. Batten, J. Biffin, S. Payne, M. Tringham <BR><B>POSITION: </B>From the Nam Phut Thap Lao resurgence drive through the resort and follow the sealed road past Tham Sihanat Decha Monks Camp Site. The cave is signed along a track on the left (west) which leads to some wildlife sanctuary buildings and information signs. The cave is also signposted in Ban Pha Biat, on the road to Nam Phut Thap Lao, as being 2km away. As this cave is within the wildlife sanctuary permission to visit has to be obtained from Bangkok and park rangers will then guide you to the cave (the SMCC were reminded about this after being caught pirating the cave in February 2014). From the car park the path follows the dry river bed for about 1km before ascending steeply up the hill on the right to the entrance. <BR><B>DESCRIPTION: </B>From the entrance the comfortably sized passage heads north and has steel ladders to aid the ascent and descent of pitches of up to 4m. After a short squeeze under the right hand wall at the end of the entrance passage (follow the draft) one enters the main chamber which has large deposits of bat guano and a couple of skylights in the high roof. Heading left the chamber closes down after 100m and the cave descends steeply in a small, boulder floored passage. On the first visit in 2005 the air in this part of the cave was poor, but it had improved in 2006 to allow further exploration which was stopped at the top of a drop requiring tackle. From the point where entrance passage enters the main chamber going right leads up over the guano to a 10m wide passage that descends steeply over boulders. This has been explored to where the passage was seen to level off, but has not been pushed to a conclusion. Park rangers report that the cave extends for another 500 m beyond this point.  The cave <BR><B>ACCESS: </B>As the cave is in a wildlife sanctuary forms have to be filled in and permission required from Bangkok for a trip guided by rangers <BR>]]></description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<coordinates>101.84085412,16.54735106,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LP0129  Resurgence LP0129 [X]</name>
+			<description><![CDATA[<B>LOCALITY: </B>TH  Tha Khum Ngoen        [Lamphun] <BR><B>X_COORD: </B>X=496.5040    <B>Y_COORD: </B>Y=2027.2000    <B>Z_COORD: </B>Z=430.0000m <BR><B>COORD_SYS: </B>UTM47/WGS84 <BR><B>DEPTH: </B>0.0m      <B>LENGTH: </B>0.0m <BR><B>POSITION: </B>To the north-west of Tham Cham Ma Fa. <BR><B>DESCRIPTION: </B>An impenetrable resurgence. <BR><B>REMARK: </B>NEW <BR>]]></description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<coordinates>98.96691312,18.33455168,0</coordinates>
+			</Point>
+		</Placemark>
