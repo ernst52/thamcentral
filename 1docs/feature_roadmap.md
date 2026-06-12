@@ -3,7 +3,7 @@ CaveCentral, inspired by AllTrails
 
 ────────────────────────────────
 
-## 🧱 V1 — MVP (Note: schema is based on old version, might have to be changed)
+## V1 — MVP (Note: schema is based on old version, might have to be changed)
 
 ### Core Data
 - Import KMZ → convert → store in database
@@ -59,7 +59,7 @@ CaveCentral, inspired by AllTrails
 - Recommendations
 ────────────────────────────────
 
-## 🌱 V2 — COMMUNITY MODE
+## V2 — COMMUNITY MODE
 
 ### Accounts & Roles
 - User registration & login
@@ -81,9 +81,9 @@ CaveCentral, inspired by AllTrails
 - Participant list
 
 ### Trip Status Lifecycle
-- OPEN INVITE 🟢
-- ONGOING 🟡 (with callout time)
-- COMPLETED ⚪
+- OPEN INVITE 
+- ONGOING  (with callout time)
+- COMPLETED 
 
 ### Bulletin Board
 Display:
@@ -100,7 +100,7 @@ Display:
 
 ────────────────────────────────
 
-## 🌍 V3 — TRUST / REPUTATION SYSTEM
+## V3 — TRUST / REPUTATION SYSTEM
 
 ### User Expedition Profile
 - Caves completed (verified by trip leader)
@@ -123,7 +123,7 @@ Display:
 
 ────────────────────────────────
 
-## 🧬 V4 — BIODIVERSITY & RESEARCH DATA
+## V4 — BIODIVERSITY & RESEARCH DATA
 
 ### Fauna Integration
 - Fauna list per cave
@@ -140,7 +140,7 @@ Display:
 
 ────────────────────────────────
 
-## 🗺️ V5 — CAVE CENTRAL PLATFORM
+## V5 — CAVE CENTRAL PLATFORM
 
 ### Community Infrastructure
 - Forum / knowledge archive

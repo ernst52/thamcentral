@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 parseXML();
 
-async function parseXML() {
+export async function parseXML() {
   try {
     const xmlPath = path.join(__dirname, "../../1docs/raw_data/rawLite.xml");
     // const xmlPath = path.join(__dirname, "../../1docs/raw_data/rawdata_april2026.kml");
@@ -22,6 +22,8 @@ async function parseXML() {
     const parsedPlacemarks = placemarks.map(pm => {
         return parsePlacemark(pm); // DON'T FORGET RETURN!!! RAHHHH
     })
+
+    return parsedPlacemarks; // This for the export to seeds
 
     console.log(parsedPlacemarks);
   } catch (err) {
@@ -86,7 +88,7 @@ function parsePlacemark(pm) { // visit https://regexr.com/ for regex info
     const coord_parts = coord.replace(coordRegex[1], "").split(",")
 
     const cavelatitude = parseFloat(coord_parts[1]);
-    const cavelongtitude = parseFloat(coord_parts[0]);
+    const cavelongitude = parseFloat(coord_parts[0]);
 
     // DEPTH AND LENGTH
     const depth = description.match(/DEPTH:\s*<\/B>(.+?)m/i); // Don't fucking add g when capture. It'll wreck it. Basically turning the whole ass match instead of arrays
@@ -166,7 +168,7 @@ function parsePlacemark(pm) { // visit https://regexr.com/ for regex info
       cave_province: caveprovince,
       cave_synonym: cavesynonym,
       cave_latitude: cavelatitude,
-      cave_longitude: cavelongtitude,
+      cave_longitude: cavelongitude,
       cave_depth: cavedepth,
       cave_length: cavelength,
       cave_perspect: caveperspect,
