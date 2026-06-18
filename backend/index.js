@@ -8,6 +8,7 @@ import cors from 'cors'; // For connecting frontend and backend
 // CONFIGS
 dotenv.config(); // Loads env file into process.env
 import pool from './src/config/db.js'; // Pool, so every request won't opens a brand new connection
+import caveRouter from './src/routes/caveRoute.js'
 import { errorHandler } from './src/middleware/errorHandler.js';
 
 const app = express(); // Using express
@@ -19,6 +20,11 @@ app.use(cors({
     origin: 'http://localhost:5000',
     credentials: true
 })); // This config applies to all routes
+
+// MAIN
+
+// Cave
+app.use('/api/cave', caveRouter);
 
 // Error handler
 app.use(errorHandler)
