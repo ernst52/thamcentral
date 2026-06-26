@@ -1,6 +1,6 @@
 # ThamCentral
 
-A cave discovery and trip planning platform for the Thai caving community — because planning trips in LINE and digging through KMZ files is a terrible way to go underground.
+A cave discovery and trip planning platform for the Thai caving community because planning trips in LINE and digging through KMZ files is a terrible way to go underground.
 
 ## Contents
 
@@ -54,6 +54,3 @@ A cave discovery and trip planning platform for the Thai caving community — be
 |---------|-------|
 | **V1** | Cave database, map, search & filters, trip PDF generator, admin panel |
 | **V2** | Accounts, community contributions, digital trip system with status lifecycle |
-| **V3** | Trust & reputation system, skill profiles, trip safety matching |
-| **V4** | Biodiversity & fauna data, book digitization pipeline |
-| **V5** | Forum, conservation tools, public API, offline mobile support |
