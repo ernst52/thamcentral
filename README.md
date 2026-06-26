@@ -1,4 +1,4 @@
-# ThamCentral
+# ThamCentral (Currently Prototype)
 
 A cave discovery and trip planning platform for the Thai caving community because planning trips in LINE and digging through KMZ files is a terrible way to go underground.
 
