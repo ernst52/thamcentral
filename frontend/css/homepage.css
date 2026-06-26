@@ -1,0 +1,161 @@
+/* ─── TOKENS ─────────────────────────────────────────── */
+:root { /* CSS Variables for colors and styles */
+    --bg:       #0e0d0b;   /* page background */
+    --surface:  #1a1814;   /* nav background */
+    --border:   #2a2720;   /* borders */
+    --text:     #e8e2d9;   /* primary text */
+    --muted:    #8a8278;   /* muted text */
+    --accent:   #d4a853;   /* amber/gold */
+}
+
+/* ─── RESET ──────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; } /* Apply box-sizing to all elements(make it easy to calculate dimensions) and remove default margin and padding */
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: sans-serif;
+}
+
+/* ─── NAV ────────────────────────────────────────────── */
+nav {
+    display: flex; /*Logo Menu and Links in a row*/
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+}
+
+nav > a { /* link only <a>Thamcentral</a> */
+    color: var(--accent);
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+nav div { /* link only <div> that inside <nav> */
+    display: flex;
+    gap: 2rem;
+}
+
+nav div a { /* link only <a> that inside <div> that inside <nav> */
+    color: var(--muted);
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+nav div a:hover {
+    color: var(--text);
+}
+
+/* ─── HERO TEXT ──────────────────────────────────────── */
+#hero-text {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 0.5rem;
+}
+
+#hero-text h1 {
+    font-size: 4.5rem;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+}
+
+#hero-text p {
+    font-size: 1.1rem;
+    color: var(--muted);
+}
+
+/* ─── SEARCH ─────────────────────────────────────────── */
+div:has(#search-input) { /* Select the parent <div> that has child element with id "search-input" */
+    display: flex;
+    justify-content: center; /* Center in horizontally */
+    gap: 0.5rem;
+    padding: 0.5rem 2rem;
+}
+
+#search-input {
+    flex: 1; /* Take up remaining space in the flex container */
+    max-width: 600px;   
+    padding: 1.5rem 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 50px;
+    color: var(--text);
+    font-size: 1.5rem;
+    outline: none;
+    transition: border-color 0.3s ease; /* Smooth transition for border color change */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+#search-input:focus { /* When the input is focused(click to type), change the color */
+    border-color: var(--accent);
+    background-color: white;
+    color: black;
+}
+
+#search-btn {
+    padding: 0.75rem 1.5rem;
+    background: var(--accent);
+    color: var(--bg);
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+#search-btn:hover {
+    background-color: white;
+}
+
+/* ─── OVERLAY ────────────────────────────────────────── */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25);  /* 0.25 = 25% dark, adjust to taste */
+    z-index: -1;
+}
+
+/* ─── VIGNETTE ───────────────────────────────────────── */
+body::after { /* Create a pseudo-element for the vignette effect */
+    content: ''; /* Required for pseudo-elements even if empty */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.85) 100%);/* Create background that transparent in the center and darkens towards the edges */
+    pointer-events: none;/* Allow clicks to pass through the pseudo-element */
+    z-index: -1;
+}
+
+/* ─── SLIDESHOW ──────────────────────────────────────── */
+#slideshow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
