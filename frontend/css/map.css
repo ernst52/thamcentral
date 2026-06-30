@@ -1,0 +1,17 @@
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#back{
+    font-family: "xolonium", sans-serif;
+    color: black;
+    margin: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000
+}

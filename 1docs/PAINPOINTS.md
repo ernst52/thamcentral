@@ -3,20 +3,17 @@
 ## 1. Information Is Trapped in Chat
 - Trip planning happens in LINE
 - Messages get buried and lost
-- New members cannot access past knowledge
+- New members cannot or hard to access past knowledge
 - Same questions are asked repeatedly
 
-Impact:
-- Inefficient planning
-- Knowledge not preserved
-- Hard for beginners to start
+**Solved by:** V2 — Trip System (digital trip pages replace LINE planning), Bulletin Board
 
-────────────────────────────────
+────────────────────────
 
 ## 2. No Structured Trip Planning
 Current format:
-“anyone going this weekend?”
-“meet somewhere… not sure about time”
+"anyone going this weekend?"
+"meet somewhere… not sure about time"
 
 Problems:
 - No clear leader
@@ -25,10 +22,7 @@ Problems:
 - No standard plan
 - Unsafe in emergencies
 
-Impact:
-- Confusion
-- Poor coordination
-- Rescue becomes harder
+**Solved by:** V1 — Trip Safety Document Generator, V2 — Digital Trip System with leader, participant list, callout time
 
 ────────────────────────────────
 
@@ -38,9 +32,7 @@ Community cannot see:
 - Who is underground
 - Planned exit time
 
-Impact:
-- Slow emergency response
-- No operational awareness
+**Solved by:** V2 — Bulletin Board with trip status lifecycle (OPEN / ONGOING / COMPLETED)
 
 ────────────────────────────────
 
@@ -52,9 +44,7 @@ KMZ / old website:
 - Poor UX
 - Hard to search
 
-Impact:
-- Time wasted preparing trips
-- People rely on private knowledge
+**Solved by:** V1 — Interactive map, search, filters, sorting, pagination, cave detail pages
 
 ────────────────────────────────
 
@@ -62,39 +52,33 @@ Impact:
 To get accurate info:
 - Must DM someone who has been there
 
-Impact:
-- Data becomes outdated
-- Knowledge locked to individuals
+**Solved by:** V2 — Trusted contributor role, data correction submissions, edit request approval flow
 
 ────────────────────────────────
 
 ## 6. No Photo & Route Beta System
 KMZ has:
-- Coordinates only
+- Coordinates and basic info only
 
 Missing:
 - Entrance photos
-- Route description
-- Key obstacles
-- Rigging info
+- Detailed route description
+- Additional/updated key obstacles
+- Additional/updated rigging info
 
-Impact:
-- Hard for new visitors
-- Repeated scouting work
+**Solved by:** V1 — Cave detail page with description and photos, V2 — Community photo uploads and data corrections
 
 ────────────────────────────────
 
 ## 7. Beginner Barrier Is Too High
-Beginners don’t know:
+Beginners don't know:
 - Which cave is suitable
 - Required skills
 - Required gear
 
 Must ask manually → slow & intimidating
 
-Impact:
-- Fewer new cavers
-- Safety risk
+**Solved by:** V1 — Beginner Guide, difficulty/SRT flag filter on cave list and map
 
 ────────────────────────────────
 
@@ -104,20 +88,16 @@ Trip leaders cannot know:
 - Who can rig
 - Who is reliable
 
-Impact:
-- Unsafe team composition
-- Awkward manual verification
+**Solved by:** V3 — User Expedition Profile, skill tags, trust model, trip safety matching
 
 ────────────────────────────────
 
-## 9. Expedition History Is Not Recorded
+## 9. Not All Expedition History Is Recorded
 No structured record of:
 - Who joined which trip
 - What caves a person has done
 
-Impact:
-- No experience tracking
-- No credibility system
+**Solved by:** V3 — Verified participation records, caves completed, trip history per user
 
 ────────────────────────────────
 
@@ -127,9 +107,7 @@ Fauna data:
 - Not searchable
 - Not linked to cave locations
 
-Impact:
-- Not usable for research or planning
-- High-value data is inaccessible
+**Solved by:** V4 — Fauna integration per cave, book digitization pipeline, biodiversity search
 
 ────────────────────────────────
 
@@ -137,11 +115,8 @@ Impact:
 Current structure:
 - Document-style menu
 - Not trip-oriented
-- Not map-first
 
-Impact:
-- Not useful in the field
-- Poor discovery
+**Solved by:** V1 — Map-first UI, cave discovery flow, clean navigation
 
 ────────────────────────────────
 
@@ -151,6 +126,4 @@ Current ecosystem:
 - One outdated website
 - Scattered personal knowledge
 
-Impact:
-- No long-term knowledge system
-- Community cannot scale
+**Solved by:** V5 — CaveCentral as national platform, forum, expedition reports, public API, activity feed
