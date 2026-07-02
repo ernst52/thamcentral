@@ -1,5 +1,5 @@
 # FEATURE_ROADMAP.md
-CaveCentral, inspired by AllTrails
+ThamCentral, inspired by AllTrails and thecrag
 
 ────────────────────────────────
 
@@ -14,7 +14,8 @@ CaveCentral, inspired by AllTrails
   - length
   - depth
   - description
-  - SRT flag / difficulty (manual)
+  - SRT flag / difficulty / Betas(manual)
+  - Tags
 
 ### Map & Discovery
 - Interactive map with cave markers
@@ -24,7 +25,7 @@ CaveCentral, inspired by AllTrails
   - region
   - length
   - depth
-  - difficulty / SRT
+  - difficulty / SRT / Betas / Tags
 
 ### Cave Detail Page
 - Technical information
@@ -53,10 +54,12 @@ CaveCentral, inspired by AllTrails
 - Based on manual difficulty field
 
 ### Home page
+- Big ass search bar
 - Select region
 - Top 10 longest caves
 - Top 10 deepest caves
-- Recommendations
+- Recommendations - Beginners, worthing visiting etc.
+
 ────────────────────────────────
 
 ## V2 — COMMUNITY MODE
@@ -99,6 +102,8 @@ Display:
 - Callout time
 
 ────────────────────────────────
+
+# OPTIONAL FOR RESUME OR PROFESSOR ASKED FOR IT
 
 ## V3 — TRUST / REPUTATION SYSTEM
 
