@@ -9,7 +9,52 @@
     <link rel="stylesheet" href="../css/map.css" />
 </head>
 <body>
-    <h1><a href="homepage.html" id="back">GO BACK</a></h1>
+    <!-- Navigation -->
+    <header>
+        <a href="homepage.html">ThamCentral</a>
+        <searchbox>
+            <input type="text" id="search-input" placeholder="Search...">
+        </searchbox>
+        <div>
+            <a href="map.html">Map</a>
+            <a href="#">Trip Planner</a>
+            <a href="#">Beginner Guide</a>
+        </div>
+    </header>
+
+    <!-- Filters -->
+    <div class="filters">
+        <div class="filter-btns">
+            
+            <div class="filter-group">
+                <button id="length-btn">Length</button>
+                <div class="filter-menu hidden" id="length-menu">
+                    <label>Min <input type="number" id="length-min" placeholder="0"> m</label>
+                    <label>Max <input type="number" id="length-max" placeholder="9999"> m</label>
+                </div>
+            </div>
+            
+            <div class="filter-group">
+                <button id="depth-btn">Depth</button>
+                <div class="filter-menu hidden" id="depth-menu">
+                    <label>Min <input type="number" id="depth-min" placeholder="0"> m</label>
+                    <label>Max <input type="number" id="depth-max" placeholder="9999"> m</label>
+                </div> 
+            </div>
+           
+            <div class="filter-group">
+                <button id="province-btn">Province</button>
+                <div class="filter-menu hidden" id="province-menu">
+                    <select id="province-select">
+                        <option value="">All provinces</option>
+                    </select>
+                </div>
+            </div>
+         
+
+     </div>
+    </div>
+    
     <div id="map"></div>
 
     <script src="../js/map.js"></script>

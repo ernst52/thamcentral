@@ -12,10 +12,20 @@ import caveRouter from './src/routes/caveRoute.js'
 import { errorHandler } from './src/middleware/errorHandler.js';
 
 const app = express(); // Using express
-app.use(helmet()); // It just quietly sets secure HTTP headers on every response.
+app.use(helmet({
+    contentSecurityPolicy: { // To bypass security bullshit
+        directives: {
+            scriptSrc: ["'self'", "https://unpkg.com"],
+            styleSrc: ["'self'", "https://unpkg.com", "'unsafe-inline'"],
+            imgSrc: ["'self'", "data:", "https://*.tile.openstreetmap.org", "https://*.tile.opentopomap.org", "https://server.arcgisonline.com", "https://unpkg.com"],
+        }
+    },
+    referrerPolicy: { policy: "strict-origin-when-cross-origin" }
+})); // It just quietly sets secure HTTP headers on every response.
 app.use(morgan('dev')); // For logging every request with method, path, status code and response time.
 app.use(express.json()); // For turning fetched json into readable chunks used to be const bodyParser = require('body-parser'); but that's ancient
 app.use(cookieParser()); // Make cookies readable
+app.use(express.static('../frontend')); // FOR NOW, also btw this one let you see the frontend stuff
 app.use(cors({
     origin: 'http://localhost:5000',
     credentials: true
@@ -32,3 +42,4 @@ app.use(errorHandler)
 // PORT STUFF
 const PORT = process.env.PORT; // Picking up PORT from .env
 app.listen(PORT, () => console.log(`Sever running on port: http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Come here bro: http://localhost:5000/pages_html/homepage.html`));

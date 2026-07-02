@@ -22,10 +22,12 @@ nav {
     display: flex; /*Logo Menu and Links in a row*/
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 3rem;
+    padding: 1rem 2rem;
     background: var(--surface);
     border-bottom: 1px solid var(--border);
 }
+
+
 
 nav > a { /* link only <a>Thamcentral</a> */
     color: var(--accent);

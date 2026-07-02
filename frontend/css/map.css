@@ -1,17 +1,109 @@
-#map {
+:root { /* CSS Variables for colors and styles */
+    --bg:       #0e0d0b;   /* page background */
+    --surface:  #1a1814;   /* nav background */
+    --border:   #2a2720;   /* borders */
+    --text:     #e8e2d9;   /* primary text */
+    --muted:    #8a8278;   /* muted text */
+    --accent:   #d4a853;   /* amber/gold */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+/* HEADER */
+header {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    z-index: 1000;
+}
+
+header searchbox {
+    width: 65%;
+    height: 2.75em;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+#search-input {
+    width: 100%;
+    height: 100%;
+    font-size: 16px; 
+    border: none;
+    border-radius: 25px;
+    padding: 0 15px; 
+    box-sizing: border-box;  /* padding doesn't push it outside bounds */
+    outline: 0;
+}
+
+header > a { /* link only <a>Thamcentral</a> */
+    color: var(--accent);
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+header div { /* link only <div> that inside <nav> */
+    display: flex;
+    gap: 2rem;
+}
+
+header div a { /* link only <a> that inside <div> that inside <nav> */
+    color: var(--muted);
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+header div a:hover {
+    color: var(--text);
+}
+
+.filters{
+    display: flex; 
+    flex-direction: column;
+    position: fixed;
+    margin-left: 4em;
+    margin-top: 5px;
+    z-index: 1000;
+}
+
+.filter-btns{
+    display: flex; 
+    gap: 5px
+}
+
+.filter-group {
+    position: relative;
+}
+
+.filter-menu {
     position: absolute;
-    top: 0;
+    margin-top: 5px;
+}
+
+.filter-menu label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#map {
+    position: fixed;
+    top: 71px; /* nav height */
     bottom: 0;
     left: 0;
     right: 0;
-}
-
-#back{
-    font-family: "xolonium", sans-serif;
-    color: black;
-    margin: 10px;
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    z-index: 1000
 }
