@@ -1,12 +1,11 @@
 # PAINPOINTS.md
 
 ## 1. Information Is Trapped in Chat
-- Trip planning happens in LINE
 - Messages get buried and lost
 - New members cannot or hard to access past knowledge
 - Same questions are asked repeatedly
 
-**Solved by:** V2 — Trip System (digital trip pages replace LINE planning), Bulletin Board
+**Solved by:** V2 — Cave Page Contributions by trusted members
 
 ────────────────────────
 
